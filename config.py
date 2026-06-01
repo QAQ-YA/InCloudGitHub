@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # GitHub配置
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', '')
+GITHUB_TOKEN = os.getenv('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', '')
 
 # 扫描配置
 SCAN_INTERVAL_HOURS = int(os.getenv('SCAN_INTERVAL_HOURS', 24))
